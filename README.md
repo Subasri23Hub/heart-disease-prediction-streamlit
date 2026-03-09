@@ -95,6 +95,9 @@ The application will open in your browser at:
 ```
 http://localhost:8501
 ```
+## Application Preview
+
+![Streamlit Dashboard](dashboard.png)
 
 ## Future Improvements
 

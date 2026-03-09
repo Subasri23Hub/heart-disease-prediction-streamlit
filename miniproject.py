@@ -66,3 +66,10 @@ plt.title("Confusion Matrix")
 plt.xlabel("Predicted")
 plt.ylabel("Actual")
 plt.show()
+
+import pickle
+
+with open("heart_model.pkl", "wb") as f:
+    pickle.dump(best_model, f)
+
+print("Model saved successfully")
